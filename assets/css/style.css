@@ -1,0 +1,607 @@
+* {
+    box-sizing: border-box;
+}
+
+a:link {
+    text-decoration: none;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+a.navAbout:link {
+	color: #777777;
+}
+
+a.navAbout:visited {
+	color: #B24200;
+}
+
+a.navAbout:hover {
+	background: #4aaaa5;
+	color: white;
+}
+
+a.navPortfolio:link {
+	color: #777777;
+}
+
+a.navPortfolio:visited {
+	color: #B24200;
+}
+
+a.navPortfolio:hover {
+	background: #4aaaa5;
+	color: white;
+}
+
+a.navContact:link {
+	color: #777777;
+}
+
+a.navContact:visited {
+	color: #B24200;
+}
+
+a.navContact:hover {
+	background: #4aaaa5;
+	color: white;
+}
+
+a.LinkContent:link {
+	color: #4aaaa5;
+	text-decoration: underline;
+}
+
+a.LinkContent:visited {
+	color: #B24200;
+	text-decoration: underline;
+}
+
+a.LinkContent:hover {
+	background: #4aaaa5;
+	color: white;
+	text-decoration: none;
+}
+
+.ConLogos:hover {
+  outline: 3px solid #777777;
+  outline-offset: -5px;
+}
+
+p{
+	line-height: 1.5;
+
+}
+
+h1, h2, h3 {
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	} 
+
+body{
+	background-image: url("../images/background.png");
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #333333;
+	margin: 0;
+    padding: 0;
+    /*width: 1440px;*/
+}
+
+header{
+	background-color: #ffffff;
+	border-color: #cccccc;
+	/*width: 100vw;*/
+	border-bottom: 3px solid #cccccc;
+	padding-bottom: 90px;
+	margin-bottom: 30px;
+}
+
+h1{	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	padding: 30px;
+	background-color: #4aaaa5;
+	margin-left: 10%;
+	float: left;
+}
+
+nav {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	font-weight: bold;
+	float: left;
+	margin-left: 39%;
+	margin-top: 40px;
+}
+
+.navAbout{
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-right: 2px solid #cccccc;
+}
+
+.navPortfolio{
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-right: 2px solid #cccccc;
+}
+.navContact{
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.wrapper{
+	width: 90%;
+	/*font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;*/
+	margin-left: 10%;	
+	float: left;
+	margin-bottom: 130px;
+	/*margin: 0 auto;*/
+	/*background-color: #ffffff;*/
+	/*border-color: #dddddd;*/
+	/*padding-bottom: 450px;*/
+	/*clear: both;*/
+}
+
+h2{	
+	clear: both;
+	font-size: 24px;
+	color: #4aaaa5;
+	font-weight: bold;
+	text-align: left;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	/*padding: 30px;*/
+	border-bottom: 3px solid #cccccc;
+}
+
+#AboutMe_main{
+	float: left;
+	width: 62%;
+	margin-right: 30px;
+	background-color: #ffffff;
+	padding: 30px;
+	border: 2px solid #cccccc;
+/*	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;*/
+	/*padding: 30px;*/
+}
+#bioimage{
+	width: 34%;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	float: left;
+}
+
+#Portfolio_main{
+	float: left;
+	width: 62%;
+	margin-right: 30px;
+	background-color: #ffffff;
+	padding: 30px;
+	border: 2px solid #cccccc;
+}
+
+.portimagesL{
+ 	float: left; 
+	width: 47%;
+}
+
+.portimagesR{
+ 	float: right; 
+	width: 47%;
+}
+
+.rowLtxt{
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	width: 47%;
+/* 	display: inline-block; */
+	color: white;
+	font-size: 24px;
+	text-align: center;
+	background-color: #4aaaa5;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	position: relative;
+	bottom: 65px;
+ 	float: left; 
+
+}
+
+.rowRtxt{
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	width: 47%;
+/* 	display: inline-block; */
+	color: white;
+	font-size: 24px;
+	text-align: center;
+	background-color: #4aaaa5;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	position: relative;
+	bottom: 65px;
+ 	float: right; 
+
+}
+
+#row3Ltxt{
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	width: 47%;
+	/*display: inline-block;*/
+	color: white;
+	font-size: 24px;
+	text-align: center;
+	background-color: #4aaaa5;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	clear: both;
+	position: relative;
+	bottom: 65px;
+	/*float: left;*/
+
+}
+
+/* .row1{
+	clear: both;
+}
+
+.row2{
+	clear: both;
+}
+
+.row3{
+	clear: both;
+} */
+
+.AboutMe_content{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+#Contact_main{
+	float: left;
+	width: 62%;
+	margin-right: 30px;
+	background-color: #ffffff;
+	padding: 30px;
+	border: 2px solid #cccccc;
+}
+
+.labels{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	font-size: 18px;
+}
+
+.txtInput{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	font-size: 14px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	width: 100%;
+}
+
+button {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 18px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #4aaaa5;
+	color: white;
+}	
+
+button:hover,
+button:focus {
+	background-color: #B24200;
+}
+
+aside{
+	float: left;
+	width: 19%;
+	margin-right: 20px;
+	padding: 30px;
+	background-color: #ffffff;
+	border: 2px solid #cccccc;
+}
+
+h3{	
+	clear: both;
+	font-size: 22px;
+	color: #4aaaa5;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	/*padding: 30px;*/
+	border-bottom: 2px solid #cccccc;
+}
+
+.LogosSect{
+	margin-left: 10px;
+}
+
+.ConLogos{
+	width: 50px;
+	padding: 3px;
+}
+
+footer{
+	clear: both;
+	width: 100%;
+	position: fixed;
+	left: 0px;
+    bottom: 0px; 
+	background-color: #666666;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-top: 7px solid #4aaaa5;
+
+}
+
+@media screen and (max-width: 980px) {
+    nav {
+        margin-left: 19%;
+    }
+
+    #AboutMe_main{
+    	width: 50%;
+    }
+
+	#Portfolio_main{
+    	width: 50%;
+    }
+
+	#Contact_main{
+    	width: 50%;
+    }
+
+    #bioimage{
+    	width: 100%;
+    	padding-right: 0px;
+    }
+
+    .portimagesL{
+    	width: 100%;
+    	margin-bottom: 30px;
+    	float: none;
+    }
+
+    .portimagesR{
+    	width: 100%;
+    	margin-bottom: 30px;
+    	float: none;
+    }
+
+    .rowLtxt{
+    	width: 100%;
+    	top: -370px;
+    	float: none;
+    }
+
+    .rowRtxt{
+    	width: 100%;
+    	top: -150px;
+    	float: none;
+    }
+
+    #row3Ltxt{
+    	width: 100%;
+    	top: -95px;
+    	float: none;
+    }
+
+/*Use negative margin-bottom to compensate for the white space left by the relative position movement of the text bars*/
+    .row{
+    	margin-bottom: -108px;
+    }
+	
+    .row3{
+    	margin-bottom: -54px;
+    }
+	
+    aside{
+    	width: 30%
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1{
+    	margin-left: 3%;
+    }
+
+    nav {
+        margin-left: 21%;
+    }
+
+    .wrapper{
+    	width: 95%;
+    	margin-left: 3%;
+    }
+
+    #AboutMe_main{
+    	width: 100%;
+    	margin-bottom: 30px;
+    }
+
+	#Portfolio_main{
+    	width: 100%;
+    	margin-bottom: 30px;
+    }
+
+	#Contact_main{
+    	width: 100%;
+    	margin-bottom: 30px;
+    }
+
+    aside{
+    	width: 100%;
+    }
+
+	h3{
+		text-align: left;
+	}
+
+	.LogosSect {
+    margin-left: 0px;
+}
+	
+    #bioimage{
+    	width: 39%;
+    	padding-right: 20px;
+    	padding-bottom: 20px;
+
+    }
+
+    .portimagesL{
+    	width: 47%;
+    	margin-bottom: 30px;
+    	float: left;
+    }
+
+    .portimagesR{
+    	width: 47%;
+    	margin-bottom: 30px;
+    	float: right;
+    }
+
+    .rowLtxt{
+    	width: 47%;
+    	top: -92px;
+    	float: left;
+    }
+
+    .rowRtxt{
+    	width: 47%;
+    	top: -92px;
+    	float: right;
+    }
+
+    #row3Ltxt{
+    	width: 47%;
+    	top: -92px;
+    	float: left;
+    }
+
+/*Use negative margin-bottom to compensate for the white space left by the relative position movement of the text bars*/
+    .row{
+    	margin-bottom: -108px;
+    }
+	
+    .row3{
+    	margin-bottom: -54px;
+    }
+	
+	
+ }
+
+ @media screen and (max-width: 640px) {
+     
+     header{
+     	padding-bottom: 170px;
+     }
+
+     h1{
+    	margin-left: 0%;
+    	width: 100%;
+    }
+
+    nav {
+	    margin-left: 10%;
+	    margin-right: 10%;
+	    width: 81%;
+    
+    }
+
+    .navAbout {
+		padding-right: 10%;
+    	padding-left: 10%;
+    }	
+
+	.navPortfolio {
+		padding-right: 10%;
+    	padding-left: 10%;
+    }	
+
+	.navContact {
+		padding-right: 10%;
+    	padding-left: 10%;
+    }	
+
+    aside{
+    	width: 100%;
+    }
+
+    .wrapper{
+    	width: 95%;
+    	margin-left: 3%;
+    }
+
+
+    #AboutMe_main{
+    	width: 100%;
+    }
+
+	#Portfolio_main{
+    	width: 100%;
+    }
+
+	#Contact_main{
+    	width: 100%;
+    }
+
+    #bioimage{
+    	width: 100%;
+    	padding-right: 0px;
+    }
+
+    .portimagesL{
+    	width: 100%;
+    	margin-bottom: 30px;
+    	float: none;
+    }
+
+    .portimagesR{
+    	width: 100%;
+    	margin-bottom: 30px;
+    	float: none;
+    }
+
+    .rowLtxt{
+    	width: 100%;
+    	top: -473px;
+    	float: none;
+    }
+
+    .rowRtxt{
+    	width: 100%;
+    	top: -150px;
+    	float: none;
+    }
+
+    #row3Ltxt{
+    	width: 100%;
+    	top: -95px;
+    	float: none;
+    }
+
+/*Use negative margin-bottom to compensate for the white space left by the relative position movement of the text bars*/
+    .row{
+    	margin-bottom: -108px;
+    }
+	
+    .row3{
+    	margin-bottom: -54px;
+    }
+	
+ 
+}
