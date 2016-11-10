@@ -108,8 +108,8 @@ nav {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
 	font-weight: bold;
-	float: left;
-	margin-left: 39%;
+	float: right;
+	margin-right: 15%;
 	margin-top: 40px;
 }
 
@@ -350,7 +350,7 @@ footer{
 
 @media screen and (max-width: 980px) {
     nav {
-        margin-left: 19%;
+        margin-right: 10%;
     }
 
     #AboutMe_main{
@@ -384,19 +384,19 @@ footer{
 
     .rowLtxt{
     	width: 100%;
-    	top: -370px;
+    	bottom: 370px;
     	float: none;
     }
 
     .rowRtxt{
     	width: 100%;
-    	top: -150px;
+    	bottom: 150px;
     	float: none;
     }
 
     #row3Ltxt{
     	width: 100%;
-    	top: -95px;
+    	bottom: 95px;
     	float: none;
     }
 
@@ -420,7 +420,7 @@ footer{
     }
 
     nav {
-        margin-left: 21%;
+        margin-right: 2%;
     }
 
     .wrapper{
@@ -476,19 +476,19 @@ footer{
 
     .rowLtxt{
     	width: 47%;
-    	top: -92px;
+    	bottom: 92px;
     	float: left;
     }
 
     .rowRtxt{
     	width: 47%;
-    	top: -92px;
+    	bottom: 92px;
     	float: right;
     }
 
     #row3Ltxt{
     	width: 47%;
-    	top: -92px;
+    	bottom: 92px;
     	float: left;
     }
 
@@ -578,19 +578,19 @@ footer{
 
     .rowLtxt{
     	width: 100%;
-    	top: -473px;
+    	bottom: 473px;
     	float: none;
     }
 
     .rowRtxt{
     	width: 100%;
-    	top: -150px;
+    	bottom: 150px;
     	float: none;
     }
 
     #row3Ltxt{
     	width: 100%;
-    	top: -95px;
+    	bottom: 95px;
     	float: none;
     }
 
